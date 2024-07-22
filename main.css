@@ -17,7 +17,11 @@
 }
 .company{
     font-size: 14px;
-    color:#000;
+    color:#33A1FF;
+}
+.ex-company{
+    font-size: 14px;
+    color:#3F4742;
 }
 .nav-right{
     float: right;
@@ -51,4 +55,16 @@
 /* Right-aligned section inside the top navigation */
 .topnav-right {
     float: right;
+}
+
+
+.paper {
+    margin-bottom: 5px; /* Adjust the value to your preference */
+}
+.paper + a {
+    margin-top: 5px; /* Adjust the value to your preference */
+    display: inline-block;
+}
+.container {
+    margin-bottom: 20px; /* Adjust the value to your preference */
 }
